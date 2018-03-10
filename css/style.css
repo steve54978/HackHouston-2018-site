@@ -1,0 +1,291 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#fff;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:maroon;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:white 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:white; 
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/tiger_background.jpg') no-repeat 0 -200px;
+  text-align:center;
+  /* background-size: 100%; */
+  /* padding-top: 7%; */
+  /* padding-left: 30%; */
+  color:white;
+}
+
+#showcase h1{
+  margin-top:100px;
+  padding-left: 40%;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  padding-left: 40%;
+  font-size:20px;
+}
+
+/* schedule */
+
+#schedule{
+  text-align: left;
+}
+
+#schedule h3{
+  font-size: 50px;
+  text-align: center;
+}
+
+#schedule .times{
+  
+}
+
+#schedule th {
+  text-align: center;
+}
+/* #schedule table {
+  text-align: center;
+} */
+
+
+/* SPONSOR */
+
+#sponsor{
+  padding: 0;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%
+}
+
+#sponsor h3{
+  font-size: 50px;
+  text-align: center;
+}
+
+/* section#sponsor .company_logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  text-align: center;
+} */
+
+section#sponsor .company_logos .cpanel{
+  max-width: 1000px;
+}
+
+section#sponsor .company_logos .roku{
+  max-width: 350px;
+}
+
+section#sponsor .company_logos .twitch{
+  max-width: 150px;
+}
+
+section#sponsor .company_logos .lob{
+  max-width: 150px;
+}
+
+section#sponsor .company_logos .tsu{
+  max-width: 150px;
+}
+
+#FAQ h3{
+  font-size: 50px;
+  text-align: center;
+  /* padding-top: 100px; */
+}
+
+/* FAQ */
+
+#FAQ{
+  
+}
+
+
+
+/* map */
+
+#map{
+  
+}
+
+#map h3{
+  font-size: 50px;
+  text-align: center;
+}
+
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: left;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Company Logos */
+
+
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:maroon;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+#showcase {
+
+}
+
+  #showcase h1{
+    margin-top:40px;
+    font-size:20px;
+    color:white;
+    padding-left: 50%;
+  }
+
+  #showcase p{
+    font-size: 12px;
+    color: white;
+    padding-left: 50%;
+  }
+}
+
+/* @media only screen and (max-width: 640px) {
+  section#sponsor .company_logos img {
+    margin: 5vh 100vw;
+    max-width: 70vw;
+    height: auto;
+  }
+} */
+
+/* @media only screen and (max-width: 640px)
+  {section .container {
+      max-width: 100%!important;
+  }
+} */
+
