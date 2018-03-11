@@ -1,7 +1,6 @@
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   background-color: #ffffff;
-  
 }
 
 #showcase {
@@ -24,7 +23,7 @@ body {
   border-color: #760620;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav > li > a {
   color: white;
 }
 
@@ -49,16 +48,17 @@ body {
   background: transparent;
 }
 
-#schedule {
-  /* background: maroon; */
-  background: #760620;
-  color:white;
-}
-
 #faq {
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
   background: white;
   color: #760620;
+}
+
+#schedule {
+  background: #760620;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #sponsor {
@@ -71,3 +71,29 @@ body {
   padding-right: 0;
 }
 
+#sponsor .cpanel {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#sponsor .roku {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#sponsor .twitch {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 70px;
+
+}
+
+#sponsor .lob {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#sponsor .tsu {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
